@@ -10,9 +10,9 @@
 		71B31E362A683C6200E29771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B31E352A683C6200E29771 /* AppDelegate.swift */; };
 		71B31E382A683C6200E29771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B31E372A683C6200E29771 /* SceneDelegate.swift */; };
 		71B31E3A2A683C6200E29771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B31E392A683C6200E29771 /* ViewController.swift */; };
-		71B31E3D2A683C6200E29771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B31E3B2A683C6200E29771 /* Main.storyboard */; };
 		71B31E3F2A683C6400E29771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B31E3E2A683C6400E29771 /* Assets.xcassets */; };
 		71B31E422A683C6400E29771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B31E402A683C6400E29771 /* LaunchScreen.storyboard */; };
+		71B990E82A69DDD2003F519D /* monterey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B990E72A69DDD2003F519D /* monterey.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		71B31E352A683C6200E29771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B31E372A683C6200E29771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71B31E392A683C6200E29771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71B31E3C2A683C6200E29771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B31E3E2A683C6400E29771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B31E412A683C6400E29771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B31E432A683C6400E29771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B990E72A69DDD2003F519D /* monterey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monterey.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 				71B31E352A683C6200E29771 /* AppDelegate.swift */,
 				71B31E372A683C6200E29771 /* SceneDelegate.swift */,
 				71B31E392A683C6200E29771 /* ViewController.swift */,
-				71B31E3B2A683C6200E29771 /* Main.storyboard */,
 				71B31E3E2A683C6400E29771 /* Assets.xcassets */,
 				71B31E402A683C6400E29771 /* LaunchScreen.storyboard */,
 				71B31E432A683C6400E29771 /* Info.plist */,
+				71B990E72A69DDD2003F519D /* monterey.jpg */,
 			);
 			path = Marathon7thTask;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B990E82A69DDD2003F519D /* monterey.jpg in Resources */,
 				71B31E422A683C6400E29771 /* LaunchScreen.storyboard in Resources */,
 				71B31E3F2A683C6400E29771 /* Assets.xcassets in Resources */,
-				71B31E3D2A683C6200E29771 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71B31E3B2A683C6200E29771 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71B31E3C2A683C6200E29771 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71B31E402A683C6400E29771 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +284,6 @@
 				INFOPLIST_FILE = Marathon7thTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +311,6 @@
 				INFOPLIST_FILE = Marathon7thTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
